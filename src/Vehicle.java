@@ -6,7 +6,10 @@ public class Vehicle{
     private String Model;
 
     public Vehicle(double Price, String Color, String Make, String Model){
-        
+        this.Price = Price;
+        this.Color = Color;
+        this.Make = Make;
+        this.Model = Model;
     }
 
     public double getPrice(){

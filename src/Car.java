@@ -7,4 +7,4 @@ public Car(String VehicleIDNumber, double price, String color, String make, Stri
 }
 public String getDescription(){
     return ("Vehicle ID Number: " + super.getDescription() + VehicleIDNumber);
-}
+}}
